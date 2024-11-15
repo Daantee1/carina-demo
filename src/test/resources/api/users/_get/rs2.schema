@@ -1,0 +1,21 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "userId": {
+        "type": "integer",
+        "description": "The unique identifier for the user who posted the item."
+      },
+      "id": {
+        "type": "integer",
+        "description": "The unique identifier for the post."
+      },
+      "title": {
+        "type": "string",
+        "description": "The title or name of the post."
+      }
+    },
+    "required": ["userId", "id", "title"]
+  }
+}
